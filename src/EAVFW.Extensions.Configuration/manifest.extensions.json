@@ -1,0 +1,51 @@
+{
+	"entities": {
+		"Server": {
+			"pluralName": "Servers",
+			"locale": {
+				"1030": {
+					"pluralName": "Servers",
+					"displayName": "Server"
+				}
+			},
+			"sitemap": "[variables('sitemaps').Administration]",
+			"attributes": {
+				"[merge()]": "[variables('audit')]",
+				"Name": {
+					"isPrimaryField": true
+				},
+				"Heartbeat": {
+					"type": "DateTime"
+				}
+			}
+		},
+		"Environment Variable": {
+			"pluralName": "Environment Variables",
+			"locale": {
+				"1030": {
+					"pluralName": "Miljø Variabler",
+					"displayName": "Miljø Variable"
+				}
+			},
+			"sitemap": "[variables('sitemaps').Administration]",
+			"attributes": {
+				"[merge()]": "[variables('audit')]",
+				"Name": {
+					"isPrimaryField": true
+				},
+				"Server": {
+					"type": {
+						"type": "lookup",
+						"referenceType": "Server"
+					}
+				},
+				"Application Name": {
+					"type": "string"
+				},
+				"Value": {
+					"type": "MultilineText"
+				}
+			}
+		}
+	}
+}
