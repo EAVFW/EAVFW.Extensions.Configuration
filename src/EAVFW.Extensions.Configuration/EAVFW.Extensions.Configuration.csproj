@@ -7,7 +7,7 @@
 	  <Authors>Poul Kjeldager</Authors>
 	  <Description>Configuration Extension EAVFW Application Building</Description>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
-	  <RepositoryUrl>https://github.com/EAVFW/EAVFW.Extensions.SecurityModel</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/EAVFW/EAVFW.Extensions.Configuration</RepositoryUrl>
 	  
   </PropertyGroup>
 	<ItemGroup>
