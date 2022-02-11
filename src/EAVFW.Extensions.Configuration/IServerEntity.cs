@@ -1,7 +1,10 @@
-﻿using System;
+﻿using DotNetDevOps.Extensions.EAVFramework.Shared;
+using System;
 
 namespace EAVFW.Extensions.Configuration
 {
+
+    [EntityInterface(EntityKey = "Server")]
     public interface IServerEntity
     {
         public string Name { get; set; }
