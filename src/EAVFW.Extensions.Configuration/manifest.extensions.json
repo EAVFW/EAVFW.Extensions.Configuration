@@ -1,4 +1,4 @@
-{
+ï»¿{
 	"entities": {
 		"Server": {
 			"pluralName": "Servers",
@@ -23,8 +23,8 @@
 			"pluralName": "Environment Variables",
 			"locale": {
 				"1030": {
-					"pluralName": "Miljø Variabler",
-					"displayName": "Miljø Variable"
+					"pluralName": "MiljÃ¸ Variabler",
+					"displayName": "MiljÃ¸ Variable"
 				}
 			},
 			"sitemap": "[variables('sitemaps').Administration]",
