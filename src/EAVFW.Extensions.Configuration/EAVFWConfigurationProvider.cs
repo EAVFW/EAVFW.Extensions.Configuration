@@ -1,4 +1,4 @@
-﻿using DotNetDevOps.Extensions.EAVFramework;
+﻿using EAVFramework;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;

@@ -1,4 +1,4 @@
-﻿using DotNetDevOps.Extensions.EAVFramework.Shared;
+﻿using EAVFramework.Shared;
 using System;
 
 namespace EAVFW.Extensions.Configuration

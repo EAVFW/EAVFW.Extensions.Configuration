@@ -1,6 +1,6 @@
-﻿using DotNetDevOps.Extensions.EAVFramework;
-using DotNetDevOps.Extensions.EAVFramework.Endpoints;
-using DotNetDevOps.Extensions.EAVFramework.Shared;
+﻿using EAVFramework;
+using EAVFramework.Endpoints;
+using EAVFramework.Shared;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
