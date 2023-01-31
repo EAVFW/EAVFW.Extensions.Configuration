@@ -90,20 +90,4 @@ namespace EAVFW.Extensions.Configuration
 
         }
     }
-
-
-    public static class ServerWatchDogExtensions
-    {
-
-        public static IServiceCollection AddServerWatchDog<TContext,TServer>(this IServiceCollection services)
-              where TContext : DynamicContext
-                where TServer : DynamicEntity, IServerEntity, new()
-        {
-            services.TryAddSingleton<IApplicationInstance, ApplicationInstance>();
-            services.TryAddSingleton<IServerInstance, ServerInstance>();
-            services.AddHostedService<ServerWatchDog<TServer,TContext>>();
-            return services;
-        }
-
-    }
 }
