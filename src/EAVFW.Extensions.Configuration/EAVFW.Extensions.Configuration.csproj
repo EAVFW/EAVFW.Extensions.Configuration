@@ -10,9 +10,11 @@
 	  <RepositoryUrl>https://github.com/EAVFW/EAVFW.Extensions.Configuration</RepositoryUrl>
 	  
   </PropertyGroup>
-	<ItemGroup>
-		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	
+    <ItemGroup>
+        <PackageReference Include="NJsonSchema" Version="10.9.0" />
 	</ItemGroup>
+    
 	<ItemGroup>
 		<None Include="..\..\README.md" Link="README.md" Pack="true" PackagePath="\" />
 		<None Include="manifest.extensions.json" Pack="true" PackagePath="eavfw/manifest/" />
