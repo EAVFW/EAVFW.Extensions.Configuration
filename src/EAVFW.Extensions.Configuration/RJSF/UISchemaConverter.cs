@@ -1,6 +1,5 @@
 using Newtonsoft.Json;
 using System;
-using System.IdentityModel.Tokens.Jwt;
 
 namespace EAVFW.Extensions.Configuration.RJSF
 {
